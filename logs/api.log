@@ -83,3 +83,36 @@
 11-12-2022 19:58:25.539 [Gauge] [DEBUG] Spec file added / modified: C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec
 11-12-2022 19:58:35.422 [Gauge] [DEBUG] Spec file added / modified: C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec
 11-12-2022 19:58:35.423 [Gauge] [DEBUG] Spec file added / modified: C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec
+11-12-2022 20:10:49.507 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-12-2022 20:10:49.508 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-12-2022 20:10:49.508 [Gauge] [DEBUG] Adding specs from C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec
+11-12-2022 20:10:49.508 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-12-2022 20:10:49.508 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53136
+11-12-2022 20:10:49.508 [Gauge] [DEBUG] Watching directory: C:\Users\mmete\IdeaProjects\gaugeExample\specs
+11-12-2022 20:10:49.508 [Gauge] [DEBUG] Found 1 files
+11-12-2022 20:10:50.284 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify that ACCOUNT CREATED is visible"}
+11-12-2022 20:10:50.285 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify that ACCOUNT CREATED is visible"  parameterizedStepValue:"Verify that ACCOUNT CREATED is visible"}}
+11-12-2022 20:10:50.289 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click Continue button"}
+11-12-2022 20:10:50.290 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click Continue button"  parameterizedStepValue:"Click Continue button"}}
+11-12-2022 20:10:50.291 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Logout"}
+11-12-2022 20:10:50.291 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Logout"  parameterizedStepValue:"Logout"}}
+11-12-2022 20:10:50.292 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Close"}
+11-12-2022 20:10:50.293 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Close"  parameterizedStepValue:"Close"}}
+11-12-2022 20:10:50.295 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to Browser"}
+11-12-2022 20:10:50.295 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to Browser"  parameterizedStepValue:"Navigate to Browser"}}
+11-12-2022 20:10:50.297 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to Url"}
+11-12-2022 20:10:50.297 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to Url"  parameterizedStepValue:"Navigate to Url"}}
+11-12-2022 20:10:50.298 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click on Signup Login button"}
+11-12-2022 20:10:50.298 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click on Signup Login button"  parameterizedStepValue:"Click on Signup Login button"}}
+11-12-2022 20:10:50.299 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify New User Signup is visible"}
+11-12-2022 20:10:50.299 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify New User Signup is visible"  parameterizedStepValue:"Verify New User Signup is visible"}}
+11-12-2022 20:10:50.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter name and email address"}
+11-12-2022 20:10:50.301 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter name and email address"  parameterizedStepValue:"Enter name and email address"}}
+11-12-2022 20:10:50.301 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click Signup button"}
+11-12-2022 20:10:50.302 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click Signup button"  parameterizedStepValue:"Click Signup button"}}
+11-12-2022 20:10:50.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify that ENTER ACCOUNT INFORMATION is visible"}
+11-12-2022 20:10:50.303 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify that ENTER ACCOUNT INFORMATION is visible"  parameterizedStepValue:"Verify that ENTER ACCOUNT INFORMATION is visible"}}
+11-12-2022 20:10:50.303 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Fill details Title, Name, Email, Password, Date of birth"}
+11-12-2022 20:10:50.304 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Fill details Title, Name, Email, Password, Date of birth"  parameterizedStepValue:"Fill details Title, Name, Email, Password, Date of birth"}}
+11-12-2022 20:10:50.304 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click Create Account button"}
+11-12-2022 20:10:50.305 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click Create Account button"  parameterizedStepValue:"Click Create Account button"}}

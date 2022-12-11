@@ -1,9 +1,12 @@
 
 # Register User
+
+ * Navigate to Browser
+ * Navigate to Url
+
 ## Test case 1:Register User
 
-  * Navigate to Browser
-  * Navigate to Url
+
   * Click on Signup Login button
   * Verify New User Signup is visible
   * Enter name and email address

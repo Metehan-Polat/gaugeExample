@@ -1,0 +1,76 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 885milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 885"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49471"}
+{"logLevel":"info","message":"Listening on port:49471"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.browser' and 'StepDefinition.RegisterUserStepImplementation.browser'"}
+{"logLevel":"debug","message":"Found Navigate to Browser in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.logout' and 'StepDefinition.RegisterUserStepImplementation.logout'"}
+{"logLevel":"debug","message":"Found Logout in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.signupButton' and 'StepDefinition.RegisterUserStepImplementation.signupButton'"}
+{"logLevel":"debug","message":"Found Click Signup button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.nameAndEmailAndAddress' and 'StepDefinition.RegisterUserStepImplementation.nameAndEmailAndAddress'"}
+{"logLevel":"debug","message":"Found Enter name and email address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.loginButton' and 'StepDefinition.RegisterUserStepImplementation.loginButton'"}
+{"logLevel":"debug","message":"Found Click on Signup Login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.fiildeatails' and 'StepDefinition.RegisterUserStepImplementation.fiildeatails'"}
+{"logLevel":"debug","message":"Found Fill details Title, Name, Email, Password, Date of birth in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.verifyEATVisible' and 'StepDefinition.RegisterUserStepImplementation.verifyEATVisible'"}
+{"logLevel":"debug","message":"Found Verify that ENTER ACCOUNT INFORMATION is visible in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.close' and 'StepDefinition.RegisterUserStepImplementation.close'"}
+{"logLevel":"debug","message":"Found Close in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.createAccountButtun' and 'StepDefinition.RegisterUserStepImplementation.createAccountButtun'"}
+{"logLevel":"debug","message":"Found Click Create Account button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.continueButton' and 'StepDefinition.RegisterUserStepImplementation.continueButton'"}
+{"logLevel":"debug","message":"Found Click Continue button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.verifyACVisible' and 'StepDefinition.RegisterUserStepImplementation.verifyACVisible'"}
+{"logLevel":"debug","message":"Found Verify that ACCOUNT CREATED is visible in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.url' and 'StepDefinition.RegisterUserStepImplementation.url'"}
+{"logLevel":"debug","message":"Found Navigate to Url in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepDefinition.RegisterUserStepImplementation.VerifyNewUser' and 'StepDefinition.RegisterUserStepImplementation.VerifyNewUser'"}
+{"logLevel":"debug","message":"Found Verify New User Signup is visible in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick Create Account button : public void createAccountButtun()"}
+{"logLevel":"debug","message":"\tNavigate to Url : public void url()"}
+{"logLevel":"debug","message":"\tClick Signup button : public void signupButton()"}
+{"logLevel":"debug","message":"\tFill details Title, Name, Email, Password, Date of birth : public void fiildeatails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEnter name and email address : public void nameAndEmailAndAddress()"}
+{"logLevel":"debug","message":"\tNavigate to Browser : public void browser()"}
+{"logLevel":"debug","message":"\tClick Continue button : public void continueButton()"}
+{"logLevel":"debug","message":"\tVerify New User Signup is visible : public void VerifyNewUser()"}
+{"logLevel":"debug","message":"\tClick on Signup Login button : public void loginButton()"}
+{"logLevel":"debug","message":"\tVerify that ACCOUNT CREATED is visible : public void verifyACVisible()"}
+{"logLevel":"debug","message":"\tLogout : public void logout()"}
+{"logLevel":"debug","message":"\tClose : public void close()"}
+{"logLevel":"debug","message":"\tVerify that ENTER ACCOUNT INFORMATION is visible : public void verifyEATVisible()"}
+{"logLevel":"debug","message":"Executing 'Navigate to Browser' using 'class StepDefinition.RegisterUserStepImplementation.browser"}
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 55645
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ara 11, 2022 9:38:20 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Ara 11, 2022 9:38:20 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 104
+Ara 11, 2022 9:38:20 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 108 of 104
+{"logLevel":"debug","message":"Executing 'Navigate to Url' using 'class StepDefinition.RegisterUserStepImplementation.url"}
+{"logLevel":"debug","message":"Executing 'Click on Signup Login button' using 'class StepDefinition.RegisterUserStepImplementation.loginButton"}
+{"logLevel":"debug","message":"Executing 'Verify New User Signup is visible' using 'class StepDefinition.RegisterUserStepImplementation.VerifyNewUser"}
+{"logLevel":"debug","message":"Executing 'Enter name and email address' using 'class StepDefinition.RegisterUserStepImplementation.nameAndEmailAndAddress"}
+{"logLevel":"debug","message":"Executing 'Click Signup button' using 'class StepDefinition.RegisterUserStepImplementation.signupButton"}
+{"logLevel":"debug","message":"Executing 'Verify that ENTER ACCOUNT INFORMATION is visible' using 'class StepDefinition.RegisterUserStepImplementation.verifyEATVisible"}
+{"logLevel":"debug","message":"Executing 'Fill details Title, Name, Email, Password, Date of birth' using 'class StepDefinition.RegisterUserStepImplementation.fiildeatails"}
+{"logLevel":"debug","message":"Executing 'Click Create Account button' using 'class StepDefinition.RegisterUserStepImplementation.createAccountButtun"}
+{"logLevel":"debug","message":"Executing 'Close' using 'class StepDefinition.RegisterUserStepImplementation.close"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
