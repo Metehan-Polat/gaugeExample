@@ -1,13 +1,12 @@
 
-# Register User
+# Register
 
  * Navigate to Browser
  * Navigate to Url
+ * Click on Signup Login button
 
-## Test case 1:Register User
+## Scenario 1:Register User
 
-
-  * Click on Signup Login button
   * Verify New User Signup is visible
   * Enter name and email address
   * Click Signup button
@@ -17,6 +16,11 @@
   * Verify that ACCOUNT CREATED is visible
   * Click Continue button
   * Logout
-
-  ___
   * Close
+
+## Scenario 1: Login User with correct email and password
+
+     * Verify Login to your account
+     * Enter correct email and password address
+     * Click login button
+     * Close
