@@ -1,0 +1,8 @@
+11-12-2022 19:51:36.072 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53005
+11-12-2022 19:51:36.073 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53005
+11-12-2022 19:51:36.075 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-12-2022 19:51:36.077 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-12-2022 19:51:36.077 [Gauge] [DEBUG] Adding specs from C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec
+11-12-2022 19:51:36.077 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-12-2022 19:51:36.077 [Gauge] [ERROR] Unable to add directory C:\Users\mmete\IdeaProjects\gaugeExample\C:\Users\mmete\IdeaProjects\gaugeExample\specs\example.spec to file watcher: GetFileAttributes: The filename, directory name, or volume label syntax is incorrect.
+11-12-2022 19:51:36.081 [spectacle] [INFO] Succesfully converted specs to html => C:\Users\mmete\AppData\Local\Temp\gaugeExample\docs\html\index.html
